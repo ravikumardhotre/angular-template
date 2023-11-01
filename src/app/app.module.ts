@@ -7,6 +7,13 @@ import { AppRoutingModule } from './app.routing';
 import { ComponentsModule } from './components/components.module';
 import { AppComponent } from './app.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { LoginComponent } from './login/login.component';
+import { UsersListComponent } from './pages/users-list/users-list.component';
+import { EmployeeListComponent } from './pages/employee-list/employee-list.component';
+import { AssetsListComponent } from './pages/assets-list/assets-list.component';
+import { AssetsAddComponent } from './pages/assets-add/assets-add.component';
+import { UserAddComponent } from './pages/user-add/user-add.component';
+import { EmployeeAddComponent } from './pages/employee-add/employee-add.component';
 
 @NgModule({
   imports: [
@@ -21,6 +28,13 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+    LoginComponent,
+    UsersListComponent,
+    EmployeeListComponent,
+    AssetsListComponent,
+    AssetsAddComponent,
+    UserAddComponent,
+    EmployeeAddComponent,
 
   ],
   providers: [],
